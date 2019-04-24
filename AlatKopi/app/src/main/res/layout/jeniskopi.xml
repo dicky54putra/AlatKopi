@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".JenisKopi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Jenis Minuman Kopi"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Espresso"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/espresso"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Espresso adalah kopi yang diekstrak menggunakan mesin penyeduh bertekanan tinggi. Hasil seduhannya hitam kental dan terdapat crema di permukaannya. Crema adalah busa cokelat yang memenuhi permukaan secangkir espresso sekaligus menjadi penanda bahwa kopi yang diseduh itu masih segar."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Ristretto"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ristretto"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Secangkir espresso biasanya juga disebut dengan one shot atau single shot. Selain one shot, minuman ini juga hadir dalam beberapa varian ukuran, salah satunya adalah ristretto.\n
+            Ristretto adalah minuman yang isinya hanya setengah dari espresso. Takaran kopinya sama, tapi dengan dosis air yang lebih sedikit. Takaran sajiannya dalam satu cangkir kira-kira hanya 15-20 ml."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Lungo"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lungo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Kebalikan dari ristretto, lungo menambahkan dosis air pada satu takaran espresso-nya. Hal ini membuat proses ekstraksinya pun lebih lama. Secangkir lungo disajikan sekitar 130-170 ml."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Doppio"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/doppio"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Berbeda dengan lungo, doppio adalah dua kali takaran espresso. Doppio biasanya disajikan 60 ml dalam satu cangkir. Orang-orang yang hendak memesan doppio terkadang juga menyebutnya dengan double shot."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Americano"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/americano"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Jika espresso terlalu tebal dan pahit, Anda bisa menambahkannya dengan air putih panas. Espresso dengan tambahan air panas ini disebut dengan americano.\n
+            Konon nama americano diambil dari sebuah lelucon atau ejekan. Berawal dari orang-orang Amerika yang meminta espresso-nya dibuat lebih encer, dipakailah nama americano untuk menyebut minuman kopinya."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Long Black"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/longblack"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Long black adalah sajian yang hampir sama dengan americano. Komposisinya sama persis, yaitu espresso dan air panas. Perbedaannya sangat sederhana, yaitu cara penyeduhannya saja.\n
+            Americano disajikan dengan menambahkan air panas di atas espresso-nya. Sementara long black adalah menambahkan espresso di atas air panas.\n
+            Ciri yang paling kentara pada long black adalah adanya crema. Pada americano, crema nyaris tidak ada karena terpecah oleh siraman air panas."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Latte"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/latte"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Komposisi latte adalah espresso yang kemudian dicampur dengan susu yang di-steam atau dipanaskan dengan uap. Susu yang dipanaskan dengan uap akan semakin kental dan membentuk buih, foam, atau froth. Susu yang kental itu sering dijadikan kreasi minuman kopi oleh para barista dan disebut dengan latte art."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Cappuccino"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cappucino"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Cappuccino sebenarnya hampir sama dengan latte. Bedanya, komposisi susunya lebih sedikit dan buih susunya lebih tebal.  Perbandingan komposisi cappuccino adalah sepertiga espresso, sepertiga susu steamed, dan sepertiga buih susu."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Macchiato"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/machiato"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Sama seperti latte dan cappuccino, macchiato terdiri dari espresso dan susu. Macchiato dalam bahasa Italia berarti tanda atau bercak. Bercak yang dimaksud adalah buih susu yang menimpa espresso, atau sebaliknya, espresso yang menimpa susu.\n
+            Setidaknya ada dua tipe macchiato, yaitu latte macchiato (jika lebih banyak susu ketimbang espresso-nya) dan caffe macchiato (jika susunya sedikit dan disajikan di cangkir kecil). Latte macchiato biasanya disajikan dingin sedangkan caffe macchiato biasanya disajikan panas dalam cangkir kecil."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Mochaccino"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/moccacino"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Mochaccino merupakan perpaduan espresso, susu steamed, dan cokelat. Minuman ini juga sering disebut dengan moka, mocha, dan café mocha. Namanya diambil dari suatu kota bersejarah di Yaman, sekaligus pelabuhan tempat kopi pertama kali jadi komoditas dunia, yaitu Mocha."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Affogato"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/affogato"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Affogato adalah sajian espresso dengan satu atau dua sendok es krim. Umumnya, es krim yang digunakan adalah es krim khas Italia, yaitu gelato.\n
+            Ya, minuman kopi unik ini berasal dari Italia. Dalam bahasa Italia, affogato berarti tenggelam. Mungkin, maksud dari penamaan itu adalah tenggelamnya gelato dalam segelas espresso."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Con Panna"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/conpanna"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Con panna adalah jenis minuman kopi yang terdiri dari espresso dan whipped cream. Terkadang, orang-orang merasa bosan dengan pahit yang ditimbulkan oleh secangkir espresso-nya. Oleh karena itu, mereka menambahkan krim di atasnya."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. Black Eye"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blackeye"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Jika kamu menginginkan sajian kopi yang dahsyat, kiranya black eye adalah solusi yang tepat. Berbeda dengan americano yang berupa espresso dengan tambahan air panas, black eye menggunakan kopi hitam sebagai tambahan espresso-nya. Kopi hitamnya bisa dibuat menggunakan perkolator maupun dengan metode manual brew.\n
+            Jenis minuman ini memiliki banyak nama di beberapa negara, di antaranya ada red eye, coffee with espresso, a shot in the dark, bahkan eye opener. Mungkin pekat dan kuatnya jenis minuman kopi ini berkhasiat membuat mata melek saat kantuk melanda."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. Kopi Tubruk"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kopitubruk"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Secara etimologi, tubruk merupakan bahasa Indonesia yang diambil dari bahasa Jawa yang berarti tabrak atau terpa. Seperti namanya, cara membuat kopi tubruk pun hanya tinggal diterpa dengan air panas tanpa alat-alat yang spesifik. Metode kopi tubruk pun populer sebagai salah satu manual brew di kancah perkopian dunia.\n
+            Tidak seperti espresso yang diminum dengan segera, kopi tubruk cenderung lebih nikmat diminum dengan santai. Kebanyakan orang Indonesia biasa menikmatinya sambil mengobrol dengan kawan atau orang terdekat lainnya. Dengan begitu, tidak hanya kopinya saja yang disesap, melainkan juga makna-makna filosofis dari setiap obrolan.\n
+            Kopi tubruk adalah minuman dengan bubuk kopi mengendap di dasar gelas yang biasa disebut dengan ampas. Oleh karena bubuk kopinya terendam dalam jangka waktu yang lama, cita rasanya tentu mengalami perubahan. Hal ini justru memberikan pengalaman ngopi yang asyik."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15. V60"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/v60"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Jika ingin sesekali mencicipi atau membuat sendiri minuman kopi pour over, Anda butuh alat yang bernama dripper dan kertas filter. Salah satu dripper yang populer digunakan dan banyak tersedia di coffee shop adalah V60.\n
+            Dripper ini diciptakan di Tokyo, Jepang pada tahun 2004 oleh perusahaan bernama Hario. Oleh karena bentuknya menyerupai huruf “v” dengan sudut 60°, maka dinamai V60. Tersedia dalam bermacam-macam bahan, ada kaca, plastik, maupun keramik.\n
+            Hasil seduhan V60 cenderung ringan dan tidak pekat. Anda tidak akan menemui crema yang kental seperti yang ada pada espresso. Namun, rasa asam dan aroma yang dihasilkan sangat maksimal."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16. Chemex"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chemex"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Berbeda dengan V60, Chemex tidak berbentuk dripper. Chemex terbuat dari kaca borosilikat. Bentuknya menyerupai labu erlenmeyer yang ada pada laboratorium kimia.\n
+            Permukaan Chemex melebar dan berfungsi menahan kertas filter yang diisi dengan bubuk kopi. Secara teknis, cara penyeduhan dan hasil seduhannya hampir sama seperti V60 dan metode pour over lainnya."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17. Vietnam Drip"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vietnamdrip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Vietnam dalam dunia perkopian terkenal dengan minuman kopi susu yang dibuat menggunakan vietnam dripper. Minuman ini memiliki banyak julukan di berbagai tempat, di antaranya ada vietnamese iced coffee, coffee drip, dan vietnam drip. Orang-orang Vietnam sendiri menyebut minuman ini cà phê đá."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18. Plunger atau Press"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/press"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Satu lagi metode manual brew yang populer di kafe-kafe adalah metode plunger atau press. Meskipun membutuhkan tekanan (press), tapi tekanannya tidak sekuat mesin atau alat pembuat espresso.\n
+            Jenis minuman kopi yang dihasilkan dengan metode ini pun sangat berbeda dengan minuman kopi espresso. Hanya sedikit crema dan karakter rasanya tidak setebal espresso.\n
+            Setidaknya ada dua alat yang populer untuk membuat jenis kopi dengan metode plunger, yaitu french press dan Aeropress. French press mengandalkan plunger untuk menekan bubuk kopi ke dasar setelah diseduh. Dengan demikian, ekstrak kopi bisa dituangkan ke cangkir dan dinikmati bersama teman-teman tanpa ada ampas yang tersisa di gelas.\n
+            Sementara Aeropress merupakan alat ciptaan perusahaan Aerobie yang semula memproduksi mainan olah raga. Cara penyeduhannya adalah dengan menekan plunger. Air Panas akan menekan bubuk kopi dan melewati saringan kemudian jatuh ke dalam gelas."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19. Vacuum"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vacuum"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Barangkali Anda pernah melihat alat yang menyerupai tabung-tabung seperti yang ada pada laboratorium saat berkunjung ke coffee shop. Alat tersebut adalah vacuum pot atau biasa disebut juga dengan syphon. Alat ini mungkin tidak sepopuler alat-alat pembuat kopi lainnya karena cenderung ribet."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20. Moka Pot"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mocapot"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Jika Anda ingin membuat espresso sendiri di rumah tapi tidak punya bujet yang cukup untuk membeli mesin espresso, moka pot adalah solusinya. Alat pembuat kopi tradisional dari Italia ini diciptakan oleh Alfonso Bialetti pada tahun 1933.\n
+            Selayaknya membuat espresso dengan mesin, alat ini pun mengandalkan tekanan untuk mengekstrak kopinya. Proses ekstrak alat ini boleh dikatakan termasuk dalam teknik perlokasi. Hanya saja, tekanan yang tinggi membuat hasil seduhannya sekental espresso."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="21. Cold Brew"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/coldbrew"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="          Satu lagi jenis minuman kopi yang diproses dengan cara unik adalah cold brew. Sebenarnya nama cold brew merujuk pada proses ekstraksinya, yaitu menggunakan air dingin.\n
+            Cold brew berbeda dengan iced coffee. Minuman ini dibuat tanpa menggunakan air panas sama sekali. Sementara iced coffee dibuat dengan menyeduh kopi terlebih dahulu menggunakan air panas, baru kemudian ditambahkan es batu.\n
+            Cara membuat cold brew tentu tidaklah sama seperti penyeduhan dengan air panas. Cold brew dibuat dengan merendam bubuk kopi pada sebuah wadah atau botol yang tertutup. Rendaman kopi tersebut lantas disimpan di lemari es kira-kira 8-20 jam sesuai dengan selera, semakin lama waktunya akan semakin pekat kopinya.\n
+            Tingkat keasaman kopi cold brew cenderung lebih rendah dari kopi-kopi yang diseduh dengan air panas. Hal ini membuatnya jadi populer di kalangan penderita maag dan mereka yang memiliki lambung sensitif."
+                android:textSize="15sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/kembali" />
+    </LinearLayout>
+</LinearLayout>
